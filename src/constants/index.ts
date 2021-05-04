@@ -14,7 +14,7 @@ type ChainTokenList = {
 }
 
 // Ether Tokens
-export const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18, 'DAI', 'Dai Stablecoin')
+export const DAI = new Token(ChainId.MAINNET, '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', 18, 'DAI', 'Dai Stablecoin')
 export const USDC = new Token(ChainId.MAINNET, '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', 6, 'USDC', 'USD//C')
 export const USDT = new Token(ChainId.MAINNET, '0xdAC17F958D2ee523a2206206994597C13D831ec7', 6, 'USDT', 'Tether USD')
 export const COMP = new Token(ChainId.MAINNET, '0xc00e94Cb662C3520282E6f5717214004A7f26888', 18, 'COMP', 'Compound')
@@ -24,7 +24,7 @@ export const WBTC = new Token(ChainId.MAINNET, '0x2260FAC5E5542a773Aa44fBCfeDf7C
 // BSC Tokens
 export const B_DAI = new Token(
   ChainId.BSC_MAINNET,
-  '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
+  '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
   18,
   'DAI',
   'Dai Token'
@@ -78,7 +78,7 @@ export const H_T_DAI = new Token(
 // TODO this is only approximate, it's actually based on blocks
 export const PROPOSAL_LENGTH_IN_DAYS = 7
 
-export const GOVERNANCE_ADDRESS = '0x66968990eA7Ab962d590F852dcC42f09e58bB50b'
+export const GOVERNANCE_ADDRESS = '0xa047D192DEb3564c91A9BEecc75A776Ea9E33427'
 
 const UNI_ADDRESS = '0xc7fD9aE2cf8542D71186877e21107E1F3A0b55ef'
 export const UNI: { [chainId in ChainId]: Token } = {
