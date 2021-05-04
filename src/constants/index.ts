@@ -4,7 +4,7 @@ import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0x10ED43C718714eb63d5aA57B78B54704E256024E'
+export const ROUTER_ADDRESS = '0x66968990eA7Ab962d590F852dcC42f09e58bB50b'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
@@ -78,7 +78,7 @@ export const H_T_DAI = new Token(
 // TODO this is only approximate, it's actually based on blocks
 export const PROPOSAL_LENGTH_IN_DAYS = 7
 
-export const GOVERNANCE_ADDRESS = '0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F'
+export const GOVERNANCE_ADDRESS = '0x66968990eA7Ab962d590F852dcC42f09e58bB50b'
 
 const UNI_ADDRESS = '0xc7fD9aE2cf8542D71186877e21107E1F3A0b55ef'
 export const UNI: { [chainId in ChainId]: Token } = {
